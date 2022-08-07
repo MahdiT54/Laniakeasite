@@ -1,0 +1,12 @@
+div {
+    color: whitesmoke;
+    background-color: black;
+    margin: 50px;
+    padding: 20px;
+    border: 4px dotted red;
+}
+
+body {
+    background-image: url(../img/laniakea.jpeg);
+    background-size: cover;
+}
