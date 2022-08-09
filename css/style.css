@@ -1,12 +1,35 @@
-div {
+.Top-bar h1,h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
-    background-color: black;
-    margin: 50px;
+    text-align: center;
+    background-color: #000033;
+    ;
+}
+
+div {
+    background-color: #000033;
+    color: white;
+    margin: 15px;
     padding: 20px;
-    border: 4px dotted red;
+    border: 4px solid midnightblue;
 }
 
 body {
     background-image: url(../img/laniakea.jpeg);
     background-size: cover;
+}
+
+a:link, a:visited {
+    color: #99e6ff;
+}
+
+a:hover {
+    color: #ccf2ff;
+}
+
+a:focus {
+    color: #9fbfdf;
+}
+a:active {
+    color: #ccccff;
 }
