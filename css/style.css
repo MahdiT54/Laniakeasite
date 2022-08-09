@@ -33,3 +33,14 @@ a:focus {
 a:active {
     color: #ccccff;
 }
+
+a[href^="http"] {
+    background: url('../img/linksymbol.png') no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 10px;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
